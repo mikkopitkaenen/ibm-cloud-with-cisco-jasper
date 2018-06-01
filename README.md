@@ -6,7 +6,7 @@
 This repository contains an IoT demo for using Cisco Jasper with IBM Cloud. Cisco Jasper control centre is a platform for managing connectivity of IoT devices that use cellular network as data channel. IBM Cloud platform will be used to handle and visualise data flows and trigger event-based actions. This repository contains code and introductions for every component of the architecture that needs to be configured.
 <br><br>
 
-![architecture](https://raw.githubusercontent.com/mikkopitkaenen/test/master/readme_images/architecture.png)<br>
+![architecture](https://raw.githubusercontent.com/mikkopitkaenen/ibm-cloud-with-cisco-jasper/master/readme_images/architecture.png)<br>
 **Architecture of the solution**
 
 1. Network of devices. Gateway sends data on behalf of other devices and sensors. In this demo Node-RED will be used as logic application, Raspberry Pi as the gateway device and TI SensorTag as data-sending sensor. One sensor has dashed line because gateway device auto-registers devices/sensors and adding another sensor device wouldn't require any actions.
