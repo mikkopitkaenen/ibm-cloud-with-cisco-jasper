@@ -26,7 +26,7 @@ If there was a private APN, it would be possible to connect a new device to gate
 
 ## Prerequisites
 - [Free IBM Cloud Account](https://bluemix.net/)
-- [Jasper Control Centre account and M2M SIM card *](https://dna.jasper.com)
+- [Jasper Control Centre account](https://dna.jasper.com) and M2M SIM card *
 - Raspberry Pi
 - TI SensorTag
 
