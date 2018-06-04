@@ -30,7 +30,7 @@ If there was a private APN, it would be possible to connect a new device to gate
 - Raspberry Pi
 - TI SensorTag
 
-*\ *This demo can be done with a SIM card with no remaining data (in case of free starter kit). Internet connection can be created via Wi-Fi. Jasper Control Centre will not show information about data usage but event triggers will work normally.*
+*\*This demo can be done with a SIM card with no remaining data (in case of free starter kit). Internet connection can be created via Wi-Fi. Jasper Control Centre will not show information about data usage but event triggers will work normally.*
 
 
 ## Contents<br>
