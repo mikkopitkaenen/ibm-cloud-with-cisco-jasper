@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains an IoT demo for using Cisco Jasper with IBM Cloud. Cisco Jasper control centre is a platform for managing connectivity of IoT devices that use cellular network as data channel. IBM Cloud platform will be used to handle and visualise data flows and trigger event-based actions. This repository contains code and introductions for every component of the architecture that needs to be configured.
+This repository contains an IoT demo for using Cisco Jasper with IBM Cloud. Cisco Jasper control centre is a platform for managing connectivity of IoT devices that use cellular network as data channel. IBM Cloud platform will be used to handle and visualise data flows and trigger event-based actions. This repository contains code and introductions for every component of the architecture that needs to be configured. This test platform was tested using jasper implementation from DNA. For the data communication we used DNA starter kit which provided required SIM cards for the IOT solution.
 <br><br>
 
 ![architecture](https://raw.githubusercontent.com/mikkopitkaenen/ibm-cloud-with-cisco-jasper/master/readme_images/architecture.png)<br>
@@ -20,7 +20,8 @@ This repository contains an IoT demo for using Cisco Jasper with IBM Cloud. Cisc
 9. Event ‘SIM Alert’: When SIM-card is inserted into a new device event will be triggered.
 10. Event ‘Sensor Data Alert’: When pre-defined device data exceeds certain threshold, event will be triggered.
 
-This recipe does not utilise private APN because it needs configuration of custom endpoints with cellular network provider. It represents a model where gateway devices connects to IBM Cloud individually.
+If there was a private APN, it would be possible to isolate the devices to a secure private network. With this connecting a new gateways can be easily auto-registered. Basically it means adding a new devices to environment would not require any configuration concerning connectivity. This will streamline the provisioning process including exchange of Watson IoT API key exchange.
+
 <br>
 If there was a private APN, it would be possible to connect a new device to gateway url that auto-registers them. It means adding new devices to environment would not require any configuration concerning connectivity. Also there would not be security issues for API keys. There would be one API key for whole environment.
 
