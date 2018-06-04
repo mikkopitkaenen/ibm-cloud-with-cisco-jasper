@@ -55,7 +55,7 @@ Step-by-step information is inside Node-RED comment nodes in 'Rules' tab.
 
 
 #### Part 2: IoT device application configuration
-In this part Raspberry Pi will be configured to send and receive data. Node-RED will be the application to handle logic. If you do not have Node-RED installed on your Raspberry Pi install it, [here](https://nodered.org/docs/getting-started/installation).
+In this part Raspberry Pi will be configured to send and receive data. Node-RED will be the application to handle logic. If you do not have Node-RED installed on your Raspberry Pi install it [here](https://nodered.org/docs/getting-started/installation).
 <br>
 To create Node-RED flow and required modules to your Raspberry Pi, run the command below in the terminal of your device
 
