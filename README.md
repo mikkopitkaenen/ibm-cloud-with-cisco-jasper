@@ -22,7 +22,6 @@ This repository contains an IoT demo for using Cisco Jasper with IBM Cloud. Cisc
 
 If there was a private APN, it would be possible to isolate the devices to a secure private network. With this connecting a new gateways can be easily auto-registered. Basically it means adding a new devices to environment would not require any configuration concerning connectivity. This will streamline the provisioning process including exchange of Watson IoT API key exchange.
 
-<br>
 If there was a private APN, it would be possible to connect a new device to gateway url that auto-registers them. It means adding new devices to environment would not require any configuration concerning connectivity. Also there would not be security issues for API keys. There would be one API key for whole environment.
 
 ## Prerequisites
